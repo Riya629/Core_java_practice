@@ -24,6 +24,7 @@ public class project_1 {
                
             } 
         }
+        sc.close();
     }
 }
 
