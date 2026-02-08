@@ -12,7 +12,7 @@ child c = new child();
 c.setnum(3);
 System.out.println(c.getnum());
 c.setnumb(7);
-System.out.println()
+System.out.println();
 
     }
 }
