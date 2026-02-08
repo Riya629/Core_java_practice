@@ -11,8 +11,10 @@ d.sound(); //creating child class object but accessing the properties of animals
     }
 }
 class Animal{
+   
     void sound(){
         System.out.println("Animal makes sounds");
+     
     }
 }
 class Dog extends Animal{
