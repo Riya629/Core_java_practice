@@ -23,7 +23,7 @@ class Mstudent_1 extends Mstudent {
     int id;
 
     Mstudent_1(int id) {
-        super("Riya",20); // if the parent and child class contain the parameters in constructor then
+        super("Riya",20); // if the parent and child class contain the parameters in constructor then.
         // it is not possible to pass value in parent class using object of chilf class
         // so
         // we use super keyword to pass value to pareant classs in child child
