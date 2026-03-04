@@ -46,11 +46,11 @@ class game {
     }
 
     void takeusersmaller() {
-        System.out.println("The number is smaller");
+        System.out.println("The enter number is smaller than actually number");
     }
 
     void takeuserlarger() {
-        System.out.println("The number is Greater");
+        System.out.println("The number is Greater than the correct number");
     }
 
     void takeusercorrect() {
