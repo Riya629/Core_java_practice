@@ -11,6 +11,7 @@ g.SetNoofGuesses(g.getNoofGuesses()+1);
      b = g.iscorrect();
 }
 System.out.println("You guessed the number in " + g.getNoofGuesses() + " attempts.");
+
     }
 }
 class game1{
@@ -25,6 +26,8 @@ this.originalNumber=ran.nextInt(100);
         System.out.println("Enter the number");
         Scanner sc = new Scanner(System.in);
         UserNumber=sc.nextInt();
+     
+        
     }
     void SetNoofGuesses(int NoofGuesses){
       this. NoofGuesses=NoofGuesses;
