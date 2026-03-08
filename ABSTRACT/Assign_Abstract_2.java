@@ -1,5 +1,5 @@
 package home.ABSTRACT;
-
+//next program with additional method
 public class Assign_Abstract_2 {
     public static void main(String[]args){
 fountainpen fp = new fountainpen();
