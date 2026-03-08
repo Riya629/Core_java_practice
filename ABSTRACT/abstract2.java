@@ -17,7 +17,7 @@ c2.sayhello();
     abstract public void sayhello();
 }
 class child2 extends parent2{
-    public void sayGoodMorning(){
+   public void sayGoodMorning(){
         System.out.println("Good morning from the sub class");
     }
     public void sayhello(){

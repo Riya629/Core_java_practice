@@ -7,31 +7,31 @@ s.area();
 s.perimeter();
     }
 }
-interface shape1{
+interface shape1{   
     void area();
-   default void perimeter(){
+    private void greet(){
+    System.out.println("Good morning");
+    }
+    default void perimeter(){ 
+        greet();             //we cannot directly the private method in main so we call it in static or default method
     System.out.println("This is the perimeter of interface");
-   }
+    }
 }
-class Rectangle1{
+class Rectangel1{
     int length=2;
     int breadth=2;
     public void area(){
-        System.out.println("The area of reactangle is:"+length*breadth);
+        System.out.println("The area of rectangle is:"+ length*breadth);
     }
-   /*  public void perimeter(){  //when the method doesnot overide the parent method that the object created of child method runs the parent method
-        System.out.println("The perimeter of reactangle is:"+2*(length+breadth));
-    }*/
+   public void perimeter(){
+    System.out.println("The perimter of rectangle is:"+2*(length+breadth));
+   }
 }
-//when the class doesnot overide the method of interface in that case the default method of interface will run 
-class square extends Rectangle1 implements shape1{
-    int length=2;
+class square extends Rectangel1 implements shape1{
     public void area(){
-        int area=length*length;
-         System.out.println("The square area is:"+area);
+        System.out.println("The area of square is:"+length*length);
     }
-   /*  public void perimeter(){
-        int perimeter=4*length;
-        System.out.println("The square perimeter is:"+perimeter);
-    }*/
+     public void perimeter(){
+        System.out.println("The area of perimter is:"+4*length);
+    }
 }
