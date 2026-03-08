@@ -2,9 +2,9 @@ package home.ABSTRACT;
 //first priority to subclass and parent class and then interface!important
 public class interface2 {
     public static void main(String[]args){
-square s= new square();
-s.area();
-s.perimeter();
+shape1 s1=new square(); //Dynamic method dispatch
+s1.area();
+s1.perimeter();
     }
 }
 interface shape1{   
@@ -31,7 +31,7 @@ class square extends Rectangel1 implements shape1{
     public void area(){
         System.out.println("The area of square is:"+length*length);
     }
-     public void perimeter(){
-        System.out.println("The area of perimter is:"+4*length);
-    }
+   public void perimeter(){
+    System.out.println("The perimeter of square is:"+2*(length+breadth));
+   }
 }
