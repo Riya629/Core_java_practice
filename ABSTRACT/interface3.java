@@ -2,7 +2,7 @@ package home.ABSTRACT;
 
 public class interface3 {
     public static void main(String[]args){
-MySampleclass msc= new MySampleclass();
+MySampleclass msc= new MySampleclass(); //Dynamic method dispatch
 msc.meth1();
 msc.meth2();
 msc.meth3();
