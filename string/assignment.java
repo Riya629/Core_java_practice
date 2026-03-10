@@ -6,7 +6,7 @@ public class assignment {
        String str;
        System.out.println("Enter a string");
        str=sc.nextLine();
-     //  System.out.println(str.toLowerCase());    converting into lowercase
+      System.out.println(str.toLowerCase());    //converting into lowercase
 sc.close();
     }
 }
