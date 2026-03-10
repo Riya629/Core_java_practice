@@ -10,6 +10,8 @@ method(55.67, 98.9);
 static void method(){
     String name="Riya";
     int age=20;
+    System.out.println(name);  //printing cause it showing variable not used error
+    System.out.println(age);
 }
 static void method(float height, float id){
 System.out.println(height);

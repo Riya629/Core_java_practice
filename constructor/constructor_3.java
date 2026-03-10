@@ -4,6 +4,8 @@ public class constructor_3 {
     public static void main(String[]args){
 Mstaff ms =new Mstaff();
 Mstaff ms2 = new Mstaff("sachet" ,30);
+System.out.println(ms.name);
+System.out.println(ms2.name);
     }
 }
 class Mstaff{
