@@ -3,8 +3,8 @@ package home.string;
 public class stringMethod {
    public static void main(String args[]) {
      String str = "Riya";
-     /* System.out.println(str.length());
-      System.out.println(str.toUpperCase());
+      System.out.println(str.length());
+     /*  System.out.println(str.toUpperCase());
       System.out.println(str.toLowerCase());
       String lstring = str.toLowerCase();
       System.out.println(lstring);

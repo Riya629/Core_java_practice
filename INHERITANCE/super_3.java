@@ -8,7 +8,6 @@ c.methody();
     }
 }
 class classsy{
-
     void methody(){
 System.out.println("This is method1");
     }

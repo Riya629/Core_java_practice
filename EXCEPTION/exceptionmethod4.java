@@ -9,10 +9,10 @@ public class exceptionmethod4 {
         int n=sc.nextInt();
         try{
             if(n==0){
-throw new Myexception();
+throw new Myexception(); // this print the catch block if you enter 0
             }
             else{
-                System.out.println("you entered valid number");
+                System.out.println("you entered valid number"); //if you entered other number this is printed
             }
         }
         catch(Myexception e){

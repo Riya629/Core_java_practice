@@ -7,13 +7,13 @@ public class Exception_Method {
           MyException m= new MyException();
           System.out.println("Enter a number");
           num=sc.nextInt();
-           System.out.println(m.toString()); //We can to in this way too
+           /*System.out.println(m.toString()); //We can to in this way too
             System.out.println(m.getMessage());
-            System.out.println(m);
+            System.out.println(m);*/
           try{
             if(num<9){
-               // throw new MyException();
-               throw new ArithmeticException("This is arthmetic exception");
+               throw new MyException();
+              // throw new ArithmeticException("This is arthmetic exception");
             }
 
           }
