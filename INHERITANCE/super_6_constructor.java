@@ -2,8 +2,8 @@ package home.INHERITANCE;
 //parameterized constructor using super keyword
 public class super_6_constructor {
     public static void main(String[]args){
-//construct3 c=new construct3(50);
-construct3 c= new construct3();
+construct3 c=new construct3(50);
+//construct3 c= new construct3();
     }
 }
 class construct2{

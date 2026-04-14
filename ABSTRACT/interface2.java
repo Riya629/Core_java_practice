@@ -31,7 +31,7 @@ class square extends Rectangel1 implements shape1{
     public void area(){
         System.out.println("The area of square is:"+length*length);
     }
-   public void perimeter(){
+    public void perimeter(){
     System.out.println("The perimeter of square is:"+2*(length+breadth));
    }
 }

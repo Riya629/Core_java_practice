@@ -6,6 +6,7 @@ Human h = new Human();
 h.speak();
 h.eat();
 h.sleep();
+
     }
 }
 interface BasicAnimal{
